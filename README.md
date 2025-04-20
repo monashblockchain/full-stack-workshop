@@ -1,7 +1,5 @@
 # One Tap Tip
 
-![One Tap Tip Banner](/public/one-tap-tip-banner.png)
-
 A full-stack web3 application that allows users to send SOL tips with just one tap. Built with Next.js 15, TailwindCSS, ShadCN UI, Firebase Firestore, and Phantom Wallet integration.
 
 ## ✨ Features
@@ -11,7 +9,6 @@ A full-stack web3 application that allows users to send SOL tips with just one t
 - 📊 View transaction history
 - 💾 Store tip data in Firebase Firestore
 - 🎨 Modern Web3 UI with glassmorphism and animations
-- 🌙 Dark mode optimized
 - 📱 Fully responsive design
 
 ## 🛠️ Technologies
@@ -34,47 +31,31 @@ Before you begin, ensure you have the following installed:
 ## 🚀 Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```
    git clone https://github.com/yourusername/one-tap-tip.git
    cd one-tap-tip
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```
    npm install
-
-   # or
-
-   yarn install
-
-   # or
-
-   pnpm install
-   \`\`\`
+   ```
 
 3. Set up environment variables:
    Create a `.env.local` file in the root directory with the following variables:
-   \`\`\`
+   ```
    NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
    NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
-   \`\`\`
+   ```
 
 4. Run the development server:
-   \`\`\`bash
+   ```
    npm run dev
-
-   # or
-
-   yarn dev
-
-   # or
-
-   pnpm dev
-   \`\`\`
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
